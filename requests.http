@@ -1,0 +1,11 @@
+### Get Hello World
+GET http://localhost:3000/event
+content-type: application/json
+
+### Create Event
+POST http://localhost:3000/event
+content-type: application/json
+
+{
+  "content": "hi"
+}
