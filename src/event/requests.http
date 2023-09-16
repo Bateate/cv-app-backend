@@ -1,0 +1,29 @@
+### Create a new event
+POST http://localhost:3000/event/new
+content-type: application/json
+
+{
+  "userId": 1,
+  "title": "Test Title",
+  "date": "Sat Sep 02 2023 15:46:40 GMT+0300 (EEST)"
+}
+
+
+# ### Find particular user with a given ID
+# GET http://localhost:3000/auth/1
+
+
+# ### Find all user with a given email
+# GET http://localhost:3000/auth?email=bateate99@gmail.com
+
+
+# ### Delete user with a given ID
+# DELETE http://localhost:3000/auth/1
+
+# ### Update user with a given ID
+# PATCH http://localhost:3000/auth/2
+# content-type: application/json
+
+# {
+#   "email": "aaaaa@gmail.com"
+# }

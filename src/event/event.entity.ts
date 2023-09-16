@@ -6,7 +6,7 @@ export class EventEntity {
   id: number;
 
   @Column()
-  user: string;
+  userId: number;
 
   @Column()
   date: Date;
